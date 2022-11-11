@@ -27,9 +27,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Projects</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#resume">Resume</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#socials">Socials</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -56,7 +57,7 @@
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
                 <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Projects</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
@@ -72,6 +73,7 @@
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/red-project.png" alt="..." />
+                            <h1 class=" text-center text-secondary mb-0">Emotion Recognition Model</h1>
                         </div>
                     </div>
                     <!-- Portfolio Item 2-->
@@ -81,6 +83,7 @@
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/music-classifier.png" alt="..." />
+                            <h1 class=" text-center text-secondary mb-0">Spotify Music Genre Classifier</h1>
                         </div>
                     </div>
                     <!-- Portfolio Item 3-->
@@ -90,6 +93,7 @@
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/game-project.png" alt="..." />
+                            <h1 class=" text-center text-secondary mb-0">UX Game Project</h1>
                         </div>
                     </div>
                 </div>
@@ -137,7 +141,7 @@
         </section>
 
         <!-- Test Section-->
-        <section class="page-section bg-primary text-white mb-0" id="test">
+        <section class="page-section bg-primary text-white mb-0" id="socials">
             <div class="container">
                 <!-- Test Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-white">Where to find me</h2>
@@ -147,8 +151,9 @@
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">TODO</p></div>
+                <div class="divider-custom divider-light">
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/salgado-michael/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/mikeysalgado/"><i class="fab fa-fw fa-github"></i></a>
                 </div>
 <!--                todo-->
             </div>
@@ -246,7 +251,8 @@
 <!--                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>-->
 <!--                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>-->
                         <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/salgado-michael/"><i class="fab fa-fw fa-linkedin-in"></i></a>
-<!--                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>-->
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/mikeysalgado/"><i class="fab fa-fw fa-github"></i></a>
+                        <!--                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>-->
                     </div>
                     <!-- Footer About Text-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
@@ -275,7 +281,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Emotion Recognition</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Emotion Recognition Model</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -285,11 +291,14 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/red-project-full.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">The emotion recognition model was a team-based project created for the Data Science Practicum course at MSOE. The program director for computer science noticed that Rosie, the university’s supercomputer, did not have much interaction with visitors. To entice students and other audiences to learn more about Rosie’s potential and computer science in general, we were tasked with developing a tool to identify multiple faces and their respective emotions through a camera stream as an example of how deep neural networks can segment and classify images in real time. My role in this project was focused on creating the proof-of-concept emotion recognizing tool and overseeing how the front-end camera system would interact with the back-end model predictions. I did this by researching current implementations of emotion recognition models and using my experience with computer vision libraries to stream a camera’s feed to combine both processes for a 10-week project timeline. The project’s final deliverable was the fully deployable emotion recognition program that we showcased during the university’s supercomputer challenge.
-                                        <br />
-                                        <br />
-                                        During this project, I was able to take my experience in machine learning and computer vision and apply it in a team-based environment to develop a deployable project in a relatively short amount of time. One challenge that we had during this project was having one week less for our timeline as our original project sponsor had dropped from the curriculum. New skills that I had gained from this project was creating new models with different architectures to test and compare accuracies. Old skills that I improved was exploring more into computer vision and using different image processing techniques to expand data sets and improve biases. After completing this project, our team decided to carry our work into a senior design project where we will be expanding the Rosie dashboard into a fully interactive environment with more AI demos.
-                                    </p>
+                                    <h5 class="mb-4">• Team-based project for Data Science Practicum
+                                        <br>
+                                        • Developed fully deployable real-time emotion recognition model
+                                        <br>
+                                        • Applied experience in machine learning and computer vision
+                                        <br>
+                                        • Earned honorable mention for the Rosie Supercomputer Super Challenge
+                                    </h5>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
@@ -321,11 +330,12 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/music-classifier-full.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">The Spotify genre predictor project was a 2-week individual project that was created for the Data Science course at MSOE. We were assigned with finding a data set and applying data processing and analysis techniques that we had learned and practiced throughout the course. For my project, I explored a dataset of songs from Spotify, as well as their genres and other audio features that were extracted using their API, such as acousticness and energy. In addition to our task of data analysis and finding correlation, I wanted to apply my experiences in machine learning and use the data to predict their genre. The project’s final deliverable was a presentation on our findings and as a result, a random forest classifier model was able to achieve a 56% accuracy, with a high of 84% accuracy for classical music.
-                                        <br />
-                                        <br />
-                                        During this project, I used my experience in data analysis and visualization to find descriptive correlations, statistical modelling, and develop predictive models. One challenge that I had during this project was cleaning and manipulating data to be ready for use in a classifier using stochastic gradient descent learning as the dataset contained a mix of categorical and continuous variables. New skills that I had gained from this project was finding hypotheses and conclusions for the dataset that I had chosen using Kruskal-Wallis and chi-squared tests. Old skills that I improved were creating predictive models and using my experience in machine learning to compare different approaches such as greedy algorithm and random forests. After completing this project, I feel confident in applying these data analysis techniques onto other datasets along with different machine learning predictive models.
-                                    </p>
+                                    <h5 class="mb-4">• Individual project for Data Science
+                                        <br>
+                                        • Performed data cleanup, exploratory data analysis, and applied machine learning algorithms
+                                        <br>
+                                        • Applied decision tree, kNN, and random forest classifier approached to obtain 56% accuracy
+                                    </h5>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
@@ -357,11 +367,12 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game-project.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">The MSOE Cooking app was a team-based project created for the Foundations of User Experience course. The goal of this project was to apply concepts of design thinking such as gamification principles, user flow and personas, and developing wireframes to showcase our UI concepts. Our application was designed with a focus on MSOE students and their dietary needs to help them learn recipes that they can make with just the ingredients and appliances they have at home. My role on this team was leading group meetings and contributing to the group’s assignments by creating the team charter, Mural and Figma projects, user flow and journey, and developing the ingredients and recipe screens for the prototype. The final deliverable was a design brief containing each aspect of the project including interview notes and mockups throughout a 3-week timeline.
-                                        <br />
-                                        <br />
-                                        I was able to take my experience in project development and apply it in a team-based environment to develop an application prototype with a focus on user experience. Specifically, I used my experience of using Figma to develop user flow diagrams and UI mockups of the MSOE Cooking app, as well as exploring user personas through interviews. One constraint that our group faced was having a relatively short project timeline of 2 weeks to explore issues at MSOE and develop potential solutions to help solve them. This included creating user persona and journeys, survey questions and holding interviews, and developing a conceptual prototype using design rationales such as gamification principles. New skills that I had gained from this project was creating survey questions with a focus on our user persona of the typical MSOE student and conducting the actual interview. One old skill that I had improved on was developing application ideas that reflect user experiences, needs, and wants. After completing this project, there is many opportunities for improvement such as having a more clearer goal in mind so that survey questions are developed to prove or disprove something that is learned through interviewee answers.
-                                    </p>
+                                    <h5 class="mb-4">• Team-based project for Foundations of User Experience
+                                        <br>
+                                        • Applied concepts of design thinking, behavioral design, and design principles
+                                        <br>
+                                        • Created UI mockups and user flow diagrams using Figma
+                                    </h5>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
