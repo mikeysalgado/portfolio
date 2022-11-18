@@ -27,17 +27,17 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Projects</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#home">Home</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#resume">Resume</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#socials">Socials</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Projects</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact Me</a></li>
+                        <li class="nav-item bg-primary rounded mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="resume.html">Resume</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead bg-primary text-white text-center">
+        <header class="masthead bg-primary text-white text-center" id="home">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
                 <img class="masthead-avatar mb-5" src="assets/img/head-shot-svg.svg" alt="..." />
@@ -53,59 +53,14 @@
                 <p class="masthead-subheading font-weight-light mb-0">Advanced Applications Engineer at Accenture - B.S. Computer Science - Machine Learning and AI</p>
             </div>
         </header>
-        <!-- Portfolio Section-->
-        <section class="page-section portfolio" id="portfolio">
-            <div class="container">
-                <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Projects</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Grid Items-->
-                <div class="row justify-content-center">
-                    <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/red-project.png" alt="..." />
-                            <h1 class=" text-center text-secondary mb-0">Emotion Recognition Model</h1>
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/music-classifier.png" alt="..." />
-                            <h1 class=" text-center text-secondary mb-0">Spotify Music Genre Classifier</h1>
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 3-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/game-project.png" alt="..." />
-                            <h1 class=" text-center text-secondary mb-0">UX Game Project</h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+
         <!-- About Section-->
-        <section class="page-section bg-primary text-white mb-0" id="about">
+        <section class="page-section mb-0" id="about">
             <div class="container">
                 <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+                <h2 class="page-section-heading text-center text-uppercase">About</h2>
                 <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
+                <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
@@ -118,44 +73,50 @@
             </div>
         </section>
 
-        <!-- Resume Section-->
-        <section class="page-section" id="resume">
+        <!-- Portfolio Section-->
+        <section class="page-section bg-primary text-white portfolio" id="portfolio">
             <div class="container">
-                <!-- Resume Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Resume</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <div class="divider-custom divider-light">
-                    <img class="resume" src="assets/img/Michael%20Salgado%20Resume%20-%20Original.png" alt="..." />
-                </div>
-                <div class="divider-custom divider-light">
-                    <form method="get" action="assets/Michael%20Salgado%20Resume.pdf">
-                        <button class="btn btn-primary btn-xl btn-block" id="rsm_button" type="submit">Download Resume</button>
-                    </form>
-                </div>
-            </div>
-        </section>
-
-        <!-- Test Section-->
-        <section class="page-section bg-primary text-white mb-0" id="socials">
-            <div class="container">
-                <!-- Test Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">Where to find me</h2>
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white text-secondary mb-0">Projects</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <div class="divider-custom divider-light">
-                    <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/salgado-michael/"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/mikeysalgado/"><i class="fab fa-fw fa-github"></i></a>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/red-project-preview.png" alt="..." />
+                            <h1 class="text-white text-center text-secondary mb-0">Emotion Recognition Model</h1>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/spotify-project-preview.png" alt="..." />
+                            <h1 class="text-white text-center text-secondary mb-0">Spotify Music Genre Classifier</h1>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/ux-project-preview.png" alt="..." />
+                            <h1 class="text-white text-center text-secondary mb-0">UX Game Project</h1>
+                        </div>
+                    </div>
                 </div>
-<!--                todo-->
             </div>
         </section>
 
@@ -291,13 +252,11 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/red-project-full.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <h5 class="mb-4">• Team-based project for Data Science Practicum
+                                    <h5 class="mb-4">The emotion recognition model was a team-based project created for the Data Science Practicum course. We developed a machine learning model utilizing the EfficientNet-B0 architecture and compared its accuracy against two other models on the AffectNet facial emotion dataset. This was then implemented into a real-time video stream where users could walk up to the TV display and have their facial emotions predicted.
                                         <br>
-                                        • Developed fully deployable real-time emotion recognition model
                                         <br>
-                                        • Applied experience in machine learning and computer vision
-                                        <br>
-                                        • Earned honorable mention for the Rosie Supercomputer Super Challenge
+                                        For this project, I applied my experience in machine learning and created the proof-of-concept process that connected back-end classification model to a front-end camera system using the OpenCV library for computer vision. One constraint that our team faced was having to develop this program from the ground up including technical specifications to full deployment within a 10-week span. We were able to find success by applying the Agile development which assisted in planning and developing features. This project has been carried over and expanded into an ongoing senior design project where we are developing an educational dashboard with a photobooth module featuring the emotion recognition model.
+
                                     </h5>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
@@ -330,11 +289,10 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/music-classifier-full.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <h5 class="mb-4">• Individual project for Data Science
+                                    <h5 class="mb-4">The Spotify genre predictor project was a 2-week individual project that was created for a Data Science course. This project consisted of exploratory data analysis and applying multiple prediction algorithms to achieve the highest accuracy on classifying songs based on 10 genres. At the end, a random-forest classifier was able to achieve a 56% accuracy, with a high of 84% accuracy for the classical genre.
                                         <br>
-                                        • Performed data cleanup, exploratory data analysis, and applied machine learning algorithms
                                         <br>
-                                        • Applied decision tree, kNN, and random forest classifier approached to obtain 56% accuracy
+                                        As this was an individual project, I was responsible for researching a dataset and performing techniques that we had learned and practiced throughout the class such as data clean up, preprocessing, finding correlations, and training models for predictions. I explored classification approaches of kNN, decision tree, random forest, and stochastic gradient descent. One challenge that I faced during this project was fully understanding the dataset and preparing it for use in training as there were a mix of categorical variables, continuous variables, and entries that had null or placeholder values. I was able to apply my experience in machine learning and transform the data into useable formats such as one-hot encoding for variables such as key. In the future, I would like to revisit this and apply more models such as neural networks as learned in a Deep Learning course to improve accuracies.
                                     </h5>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
@@ -365,13 +323,13 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game-project.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/ux-project-full.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <h5 class="mb-4">• Team-based project for Foundations of User Experience
+                                    <h5 class="mb-4">The MSOE Cooking app was a team-based project created for the Foundations of User Experience course. Our application was designed with a focus on MSOE students and their dietary needs to help them learn recipes that they can make with just the ingredients and appliances they have at home. The goal of this project was to apply concepts of design thinking such as gamification principles, user flow and personas, and developing wireframes to showcase our UI concepts.
                                         <br>
-                                        • Applied concepts of design thinking, behavioral design, and design principles
                                         <br>
-                                        • Created UI mockups and user flow diagrams using Figma
+                                        My role on this team was leading group meetings and contributing to the group’s assignments by creating the team charter, Mural and Figma projects, user flow and journey, and developing the ingredients and recipe screens for the prototype. The final deliverable was a design brief containing each aspect of the project including interview notes and mockups throughout a 3-week timeline. One challenge that we had was learning to use UX software such as Figma, which I had used previously but gained more experience throughout the project.
+
                                     </h5>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>

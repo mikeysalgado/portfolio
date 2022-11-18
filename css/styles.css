@@ -11307,6 +11307,11 @@ html {
 .page-section {
   padding: 6rem 0;
 }
+
+.resume-section {
+  padding: 12rem 0;
+}
+
 .page-section .page-section-heading {
   font-size: 2.25rem;
   line-height: 2rem;
@@ -11380,6 +11385,7 @@ html {
 #mainNav .navbar-nav li.nav-item a.nav-link {
   color: #fff;
 }
+
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
   color: #3271a8;
 }
